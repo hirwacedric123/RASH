@@ -183,7 +183,7 @@ nav ul li a:hover {
     margin-bottom: 30px;
 }
 
-/* Projects Grid */
+
 .projects {
     display: flex;
     flex-wrap: wrap;
@@ -194,6 +194,7 @@ nav ul li a:hover {
 
 .containers{
     width: 100%;
+    max-width: 1300px;
     padding: 50px;
     justify-content: space-between;
     align-items: center;
@@ -244,4 +245,54 @@ nav ul li a:hover {
         flex-direction: column;
         align-items: center;
     }
+}
+
+
+/* Gallery Section */
+.gallery {
+    text-align: center;
+    padding: 100px 0 50px;
+    background-color: #f4f4f4;
+}
+
+.gallery h2 {
+    font-size: 32px;
+    color: #333;
+}
+
+.gallery p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+/* Gallery Grid */
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+/* Gallery Item */
+.gallery-item {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.gallery-item p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #555;
 }
