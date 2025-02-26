@@ -398,3 +398,96 @@ nav ul li a:hover {
 .social-media a:hover {
     color: #007bff; 
 }
+
+/* Footer */
+/* Footer Styles */
+footer {
+    background-color: #f8f8f8; /* Background color */
+    padding: 20px 0; /* Padding for the footer */
+    text-align: center; /* Center text */
+    margin-top: 20px; /* Margin to separate from other content */
+}
+
+footer .container {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items */
+}
+
+footer p {
+    color: #666; /* Text color */
+    margin-bottom: 10px; /* Space below the paragraph */
+}
+
+footer nav ul {
+    list-style: none; /* Remove bullet points */
+    display: flex; /* Align items in a row */
+    padding: 0; /* Remove default padding */
+}
+
+footer nav ul li {
+    margin: 0 15px; /* Space between links */
+}
+
+footer nav ul li a {
+    text-decoration: none; /* Remove underline */
+    color: #333; /* Link color */
+    transition: color 0.3s; /* Transition effect */
+}
+
+footer nav ul li a:hover {
+    color: #007bff; /* Change color on hover */
+}
+
+/* Social Media Icons */
+.social-media {
+    margin: 20px 0;
+}
+
+.social-media a {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 24px; /* Icon size */
+    color: #333; /* Icon color */
+    transition: color 0.3s;
+}
+
+.social-media a:hover {
+    color: #007bff; /* Hover color */
+}
+
+/* Newsletter Styles */
+.newsletter {
+    margin: 20px 0;
+}
+
+.newsletter h4 {
+    margin-bottom: 10px;
+    color: #333; /* Title color */
+}
+
+.newsletter form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.newsletter input[type="email"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.newsletter button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.newsletter button:hover {
+    background-color: #0056b3; /* Hover color */
+}
