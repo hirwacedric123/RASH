@@ -390,11 +390,11 @@ nav ul li a:hover {
 .social-media a {
     display: inline-block;
     margin: 0 10px;
-    font-size: 24px; /* Icon size */
-    color: #333; /* Icon color */
+    font-size: 24px; 
+    color: #333; 
     transition: color 0.3s;
 }
 
 .social-media a:hover {
-    color: #007bff; /* Hover color */
+    color: #007bff; 
 }
