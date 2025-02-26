@@ -187,13 +187,13 @@ nav ul li a:hover {
 .projects {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
     justify-content: center;
-    gap: 20px;
+    gap: 40px;
 }
 
 .containers{
-    width: 90%;
-    max-width: 1100px;
+    width: 100%;
     padding: 50px;
     justify-content: space-between;
     align-items: center;
