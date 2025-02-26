@@ -391,7 +391,7 @@ nav ul li a:hover {
     display: inline-block;
     margin: 0 10px;
     font-size: 24px; 
-    color: #333; 
+    color: #007bff; 
     transition: color 0.3s;
 }
 
@@ -444,7 +444,7 @@ footer nav ul li a:hover {
     margin: 20px 0;
 }
 
-.social-media a {
+.footer .social-media a {
     display: inline-block;
     margin: 0 10px;
     font-size: 24px; /* Icon size */
