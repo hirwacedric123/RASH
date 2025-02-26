@@ -191,6 +191,14 @@ nav ul li a:hover {
     gap: 20px;
 }
 
+.containers{
+    width: 90%;
+    max-width: 1100px;
+    padding: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .project-card {
     background: white;
     padding: 20px;
