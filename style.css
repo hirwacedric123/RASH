@@ -399,10 +399,10 @@ nav ul li a:hover {
     color: #007bff; 
 }
 
-/* Footer */
 /* Footer Styles */
 footer {
-    background-color: #f8f8f8; /* Background color */
+    background-color: #333; /* Dark background color */
+    color: #fff; /* White text color */
     padding: 20px 0; /* Padding for the footer */
     text-align: center; /* Center text */
     margin-top: 20px; /* Margin to separate from other content */
@@ -415,7 +415,7 @@ footer .container {
 }
 
 footer p {
-    color: #666; /* Text color */
+    color: #fff; /* White text color */
     margin-bottom: 10px; /* Space below the paragraph */
 }
 
@@ -431,7 +431,7 @@ footer nav ul li {
 
 footer nav ul li a {
     text-decoration: none; /* Remove underline */
-    color: #333; /* Link color */
+    color: #fff; /* White link color */
     transition: color 0.3s; /* Transition effect */
 }
 
@@ -448,7 +448,7 @@ footer nav ul li a:hover {
     display: inline-block;
     margin: 0 10px;
     font-size: 24px; /* Icon size */
-    color: #333; /* Icon color */
+    color: #fff; /* White icon color */
     transition: color 0.3s;
 }
 
@@ -463,7 +463,7 @@ footer nav ul li a:hover {
 
 .newsletter h4 {
     margin-bottom: 10px;
-    color: #333; /* Title color */
+    color: #fff; /* White title color */
 }
 
 .newsletter form {
@@ -474,20 +474,21 @@ footer nav ul li a:hover {
 
 .newsletter input[type="email"] {
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #ccc; /* Light gray border */
     border-radius: 5px;
     margin-right: 10px;
 }
 
 .newsletter button {
     padding: 10px 15px;
-    background-color: #007bff;
-    color: white;
+    background-color: #007bff; /* Button color */
+    color: white; /* White button text */
     border: none;
     border-radius: 5px;
     cursor: pointer;
 }
 
 .newsletter button:hover {
-    background-color: #0056b3; /* Hover color */
+    background-color: #0056b3; /* Darker hover color */
 }
+
