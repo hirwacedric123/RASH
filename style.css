@@ -132,7 +132,7 @@ nav ul li a:hover {
 /* Hero Image */
 .hero-image {
     flex: 1;
-    text-align: right;
+    text-align: center;
 }
 
 .hero-image img {
