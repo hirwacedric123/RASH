@@ -625,96 +625,124 @@ nav ul li a.active::after {
     color: #007bff; 
 }
 
-/* Footer Styles */
 footer {
-    background-color: #333; /* Dark background color */
-    color: #fff; /* White text color */
-    padding: 20px 0; /* Padding for the footer */
-    text-align: center; /* Center text */
-    margin-top: 20px; /* Margin to separate from other content */
+    background-color: #222;
+    color: #f5f5f5;
+    padding: 40px 0 20px;
+    text-align: center;
+    margin-top: 40px;
+    box-shadow: 0 -5px 15px rgba(0,0,0,0.1);
+    border-top: 3px solid #007bff;
 }
 
 footer .container {
     display: flex;
-    flex-direction: column; /* Stack items vertically */
-    align-items: center; /* Center items */
+    flex-direction: column;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
 footer p {
-    color: #fff; /* White text color */
-    margin-bottom: 10px; /* Space below the paragraph */
+    color: #ccc;
+    margin-bottom: 15px;
+    font-size: 0.9rem;
+    letter-spacing: 0.5px;
+}
+
+footer nav {
+    width: 100%;
+    margin-bottom: 25px;
 }
 
 footer nav ul {
-    list-style: none; /* Remove bullet points */
-    display: flex; /* Align items in a row */
-    padding: 0; /* Remove default padding */
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
 }
 
 footer nav ul li {
-    margin: 0 15px; /* Space between links */
+    margin: 5px 20px;
 }
 
 footer nav ul li a {
-    text-decoration: none; /* Remove underline */
-    color: #fff; /* White link color */
-    transition: color 0.3s; /* Transition effect */
-}
-
-footer nav ul li a:hover {
-    color: #007bff; /* Change color on hover */
-}
-
-/* Social Media Icons */
-.social-media {
-    margin: 20px 0;
-}
-
-.footer .social-media a {
-    display: inline-block;
-    margin: 0 10px;
-    font-size: 24px; /* Icon size */
-    color: #fff; /* White icon color */
+    text-decoration: none;
+    color: #f5f5f5;
+    font-weight: 500;
+    font-size: 1rem;
+    padding: 5px 0;
+    position: relative;
     transition: color 0.3s;
 }
 
-.social-media a:hover {
-    color: #007bff; /* Hover color */
+footer nav ul li a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #007bff;
+    transition: width 0.3s ease;
 }
 
-/* Newsletter Styles */
-.newsletter {
-    margin: 20px 0;
+footer nav ul li a:hover {
+    color: #007bff;
 }
 
-.newsletter h4 {
-    margin-bottom: 10px;
-    color: #fff; /* White title color */
+footer nav ul li a:hover::after {
+    width: 100%;
 }
 
-.newsletter form {
+.social-media {
+    margin: 0 0 30px 0;
     display: flex;
     justify-content: center;
+}
+
+.social-media a {
+    display: inline-flex;
+    justify-content: center;
     align-items: center;
+    margin: 0 12px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    transition: all 0.3s ease;
 }
 
-.newsletter input[type="email"] {
-    padding: 10px;
-    border: 1px solid #ccc; /* Light gray border */
-    border-radius: 5px;
-    margin-right: 10px;
+.social-media a:hover {
+    background-color: #007bff;
+    color: white;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 123, 255, 0.4);
 }
 
-.newsletter button {
-    padding: 10px 15px;
-    background-color: #007bff; /* Button color */
-    color: white; /* White button text */
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+.social-media a i {
+    font-size: 18px;
 }
 
-.newsletter button:hover {
-    background-color: #0056b3; /* Darker hover color */
+@media (max-width: 768px) {
+    footer nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    footer nav ul li {
+        margin: 8px 0;
+    }
+    
+    .social-media {
+        flex-wrap: wrap;
+    }
+    
+    .social-media a {
+        margin: 5px;
+    }
 }
-
