@@ -149,7 +149,6 @@ nav ul li a.active::after {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 90vh; /* Adjust height */
     background-color: #f4f4f4;
     padding: 50px 0;
 }
